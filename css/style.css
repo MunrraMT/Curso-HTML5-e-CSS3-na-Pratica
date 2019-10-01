@@ -8,11 +8,16 @@ p{font-size: 1em; color: #777;}
 .cabecalho{width: 100%; float: left; padding: 20px 8%; background-color: #314e8b;}
 .logo a{width: 60px; height: auto; float: left; font-size: 0;}
 .cabecalho form{width: 30%; float: right;}
-.cabecalho input[type="text"]{width: 85%; float: left; padding: 20px 10px;}
-.cabecalho button{width: 15%; float: right; padding: 20px 10px; background-color: #314e8b; color: white; cursor: pointer;}
+.cabecalho input[type="text"]{width: 85%; float: left; padding: 20px 10px; border-radius: 20px 0 0 20px}
+.cabecalho button{width: 15%; float: right; padding: 20px 10px; background-color: #99999b; color: white; cursor: pointer; border-radius: 0 20px 20px 0}
 
 .menu{width: 100%; float: left; background-color: #111; padding: 18px 8%;}
 .menu li{float: left;}
 .menu li a{color: #9d9d9d; margin-right: 25px;}
 .menu li a:hover{color: #ffffff;}
 
+.link-social{float: right;}
+.link-social a{color: #fff; float: right; margin-left: 12px;}
+#link-facebook:hover{color: #3b5998;}
+#link-twitter:hover{color: #54a4d6;}
+#link-google:hover{color: #d73d32;}
